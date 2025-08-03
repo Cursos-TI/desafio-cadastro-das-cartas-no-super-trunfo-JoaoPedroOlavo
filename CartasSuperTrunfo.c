@@ -18,7 +18,7 @@ int main() {
     //Carta 1
     // Realizando a entrada de dados referente ao Estado, utilizando da letra A até H para representar os 8 estados
     printf("Informe o estado ('A até H'): ");
-    scanf("%s", &estadoCarta1);
+    scanf("%c", &estadoCarta1);
 
     // Realizando a entrada de dados referente ao código da carta, letra seguida de número 1 ao 4
     printf("Informe o código da carta: ");
@@ -52,7 +52,7 @@ int main() {
 
     // Realizando exibição da carta 1
     printf("Carta 1:\n");
-    printf("Estado: %s \n", estadoCarta1);
+    printf("Estado: %c \n", estadoCarta1);
     printf("Código: %s \n", codigoCarta1);
     printf("Nome da cidade: %s \n", cidadeCarta1);
     printf("População: %u \n", populacaoCarta1);
@@ -66,7 +66,7 @@ int main() {
     //Carta 2
     // Realizando a entrada de dados referente ao Estado, utilizando da letra A até H para representar os 8 estados
     printf("Informe o estado ('A até H'): ");
-    scanf("%s", &estadoCarta2);
+    scanf("%c", &estadoCarta2);
 
     // Realizando a entrada de dados referente ao código da carta, letra seguida de número 1 ao 4
     printf("Informe o código da carta: ");
@@ -100,7 +100,7 @@ int main() {
 
     // Realizando exibição da carta 2
     printf("Carta 2:\n");
-    printf("Estado: %s \n", estadoCarta2);
+    printf("Estado: %c \n", estadoCarta2);
     printf("Código: %s \n", codigoCarta2);
     printf("Nome da cidade: %s \n", cidadeCarta2);
     printf("População: %u \n", populacaoCarta2);
